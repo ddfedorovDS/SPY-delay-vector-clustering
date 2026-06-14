@@ -97,7 +97,7 @@ mounted, no folders are created on the runner's Drive.
    (drag from this repo's `data/` folder into Colab's left panel).
 4. Runtime → Run all.
 
-Full run ~10 min. Results saved to
+Full run ~30 min. Results saved to
 `/content/SPY_clustering_project/{figures,tables,metrics}/` in the
 session. For reproducibility, always start from a clean kernel
 (Runtime → Restart session) before Run all.
