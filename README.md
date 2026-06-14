@@ -12,9 +12,6 @@ advantage. The strategy underperforms passive Buy-and-Hold, fails the
 Deflated Sharpe Ratio test (DSR = 0.0092), and is statistically
 indistinguishable from random trading (permutation p-value = 0.306).
 
-Empirical companion to a graduate course project at HSE, Faculty of
-Computer Science. The work demonstrates rigorous methodology for testing
-market-predictability hypotheses rather than a profitable trading system.
 
 ## Method
 
