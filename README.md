@@ -45,3 +45,35 @@ Model parameters are selected on validation windows. Final performance is comput
 ## Main result
 
 The strategy does not outperform Buy-and-Hold SPY on the pseudo-out-of-sample period. The empirical results are interpreted as a test of whether delay-vector clustering can identify local market states with different future return profiles, not as evidence of a stable trading advantage.
+
+## How to run in Google Colab
+
+The notebook is configured to run without Google Drive by default:
+
+```python
+USE_GOOGLE_DRIVE = False
+```
+
+In this mode all folders are created automatically inside the Colab session:
+
+```text
+/content/SPY_clustering_project/data
+/content/SPY_clustering_project/figures
+/content/SPY_clustering_project/tables
+/content/SPY_clustering_project/metrics
+```
+
+To reproduce the calculations:
+
+1. Open `course2_structured.ipynb` in Google Colab.
+2. Run the first setup cell.
+3. Upload `SPY_raw_yahoo_2005_2025.csv` to:
+
+```text
+/content/SPY_clustering_project/data
+```
+
+4. Run all remaining cells from top to bottom.
+
+The output figures, tables and metrics will be saved to the corresponding local folders inside the Colab session.
+
