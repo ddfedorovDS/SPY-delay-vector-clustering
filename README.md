@@ -12,7 +12,6 @@ advantage. The strategy underperforms passive Buy-and-Hold, fails the
 Deflated Sharpe Ratio test (DSR = 0.0092), and is statistically
 indistinguishable from random trading (permutation p-value = 0.306).
 
-
 ## Method
 
 Daily SPY log-returns are embedded into delay vectors
@@ -47,10 +46,16 @@ before any question of signal quality.
 
 ## Robustness checks
 
-The negative result is supported by four independent diagnostics:
+The negative result is supported by five independent diagnostics:
 
 - **Subperiod analysis** — strategy underperforms Buy-and-Hold in all
   four calendar subperiods; gap smallest in non-trending 2022–2025.
+- **Drawdown-period analysis** — on days when Buy-and-Hold is in drawdown,
+  the strategy loses less at every threshold (+9 to +16 pp), and in the
+  slow 2022 bear market it even turns positive (+4.9% vs −21.6%). But this
+  protection is structural (low exposure), not predictive: in the fast
+  COVID-2020 crash the strategy lost *more* than Buy-and-Hold (−20.2% vs
+  −12.8%), having been caught long.
 - **Alternative algorithms** — k-means, z-standardized k-means, and
   GMM (diagonal) all give Sharpe 0.06–0.18; weakness is in the approach,
   not the algorithm.
