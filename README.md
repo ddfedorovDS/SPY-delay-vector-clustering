@@ -70,6 +70,8 @@ The negative result is supported by five independent diagnostics:
 spy-delay-clustering/
 
 ├── spy_clustering_fedorov.ipynb   # main Colab notebook
+├── spy_clustering_fedorov.docx # main text
+├── spy_clustering_fedorov.pptx # presentation
 
 ├── data/
 
